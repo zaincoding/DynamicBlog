@@ -65,9 +65,9 @@ export default function Comments() {
      <p className="text-red-500 mt-[10px]">{errorMessage}</p>
 )}
 
-{/* {commentslist.length >= 3 &&(
+{commentslist.length >= 3 &&(
    <p className="text-red-500 mt-[10px]">You can only post 3 comments.</p>
-)} */}
+)}
 
     <div>
         <p className="font-bold mt-[20px]">Comments:</p>
