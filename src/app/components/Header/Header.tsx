@@ -20,7 +20,7 @@ export default function Header() {
         {/* //Header Starting.. */}
         <div className='bg-slate-300 h-[70px]'>
         <div className='gird justify-items-center text-[44px] font-bold text-[#6b6b71]'>
-        {value? <p>Welcome To My Blogs</p>: <p>My Blogs</p>}
+        {value? <p>Welcome To My Blog</p>: <p>My Blog</p>}
     </div>
 </div>
 {/* //Header Ending */}
@@ -30,7 +30,7 @@ export default function Header() {
     <Image src='/images/header/headerImg2.PNG' alt='image' layout='responsive' width={180} height={100}/>
     <div className='flex flex-col'>
     <button className=' md:-mt-[280px] -mt-20 md:ml-[150px] md:text-[50px] text-[22px]
-     font-bold text-[#fdfeff]' type="button" name="blog">Zain Khan &apos;s Blogs</button>
+     font-bold text-[#fdfeff]' type="button" name="blog">Zain Khan &apos;s Blog</button>
     </div>
     </div>
 
