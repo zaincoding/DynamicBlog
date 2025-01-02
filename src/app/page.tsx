@@ -27,7 +27,7 @@ export default function Home() {
            <div className="ml-[20px]">
            <p className="grid grid-cols justify-items-center w-[140px] bg-blue-500 text-[#fcfafa]
            hover:bg-blue-600 rounded-lg ">
-                      <Link href='http://localhost:3000/blog/post1'>
+                      <Link href='/blog/post1'>
             <button type="button" name="button">Read More</button>
             </Link>
             </p>
@@ -50,7 +50,7 @@ export default function Home() {
            <div className="ml-[20px]">
            <p className="grid grid-cols justify-items-center w-[140px] bg-blue-500 text-[#fcfafa]
            hover:bg-blue-600 rounded-lg ">
-                      <Link href='http://localhost:3000/blog/post2'>
+                      <Link href='https://dynamic-blog-two-chi.vercel.app//blog/post2'>
             <button type="button" name="button">Read More</button>
             </Link>
             </p>
