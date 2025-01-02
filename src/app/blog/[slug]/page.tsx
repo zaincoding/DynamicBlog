@@ -15,8 +15,8 @@ export default function BlogPost({ params }:{params : {slug:string}}) {
             <h1 className="text-[35px] font-bold mt-[70px]">HTML: The Backbone of Every Web Page</h1>
     <p className="text-[25px]">
     In the vast world of web development, HTML (HyperText Markup Language) stands as the fundamental building block.
-     It’s the first step to creating websites and web applications, providing the structure and framework needed for everything from simple blogs to complex online systems.
-     Whether you're just starting out in the world of web development or looking to refresh your knowledge, understanding HTML is crucial.
+     It&apos;s the first step to creating websites and web applications, providing the structure and framework needed for everything from simple blogs to complex online systems.
+     Whether you&apos;re just starting out in the world of web development or looking to refresh your knowledge, understanding HTML is crucial.
  </p>
 
  <h1 className="text-[35px] font-bold mt-[70px]">What is HTML?</h1>
@@ -58,7 +58,7 @@ Animation and Interactivity: CSS enables smooth transitions, animations, and hov
 
                         <h1 className="text-[35px] font-bold mt-[70px]">Key Features of CSS</h1>
                         <p className="text-[25px]">Selectors: Target specific HTML elements to apply styles.
-Box Model: Control margins, borders, padding, and the element's size.
+Box Model: Control margins, borders, padding, and the element&apos;s size.
 Flexbox and Grid: Simplify complex layouts and align elements dynamically</p>
             </>),
                commentSection:<Comments/>
@@ -158,9 +158,9 @@ Compatibility: TypeScript seamlessly integrates with existing JavaScript codebas
 
                             <h1 className="text-[35px] font-bold mt-[70px]">Why Choose React?
                             </h1>
-                            <p className="text-[25px]">Component-Based Architecture: React's modular approach makes code easier to manage and reuse.
+                            <p className="text-[25px]">Component-Based Architecture: React&apos;s modular approach makes code easier to manage and reuse.
 Virtual DOM: React updates only the parts of the UI that change, ensuring high performance.
-Declarative Syntax: React's syntax makes it easier to design and visualize UI states.
+Declarative Syntax: React&apos;s syntax makes it easier to design and visualize UI states.
 Rich Ecosystem: React works seamlessly with tools like Redux, Next.js, and React Router for advanced functionality.
 Community Support: With an active developer community, countless libraries, and extensive documentation, React is highly accessible.  </p>
 
@@ -169,7 +169,7 @@ Community Support: With an active developer community, countless libraries, and 
                             <p className="text-[25px]">JSX: Combines JavaScript and HTML-like syntax, making UI code more intuitive.
 State and Props: Manage dynamic data and pass it between components.
 Hooks: Introduced in React 16.8, hooks like useState and useEffect simplify state management and lifecycle methods.
-React Native: Extend React’s capabilities to mobile app development.
+React Native: Extend React&apos;s capabilities to mobile app development.
  </p>
                 </>
             ),

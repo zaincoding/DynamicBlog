@@ -3,12 +3,12 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Roboto} from "next/font/google";
 
-const myRoboto = Roboto({
+// const myRoboto = Roboto({
     
-  subsets:['latin'],
-  weight: ["400", "700"]
+//   subsets:['latin'],
+//   weight: ["400", "700"]
 
-})
+// })
 
 
 const geistSans = localFont({
@@ -37,7 +37,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="{{myRoboto.font}}"></div>
+        {/* <div className="{{myRoboto.font}}"></div> */}
         {children}
       </body>
     </html>
