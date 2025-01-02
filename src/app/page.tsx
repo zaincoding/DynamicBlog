@@ -71,7 +71,7 @@ export default function Home() {
            <div className="ml-[20px] ">
            <p className="grid grid-cols justify-items-center w-[140px] bg-blue-500 text-[#fcfafa]
            hover:bg-blue-600 rounded-lg ">
-                      <Link href='http://localhost:3000/blog/post3'>
+                      <Link href='https://dynamic-blog-two-chi.vercel.app/blog/post3'>
             <button type="button" name="button">Read More</button>
             </Link>
             </p>
@@ -100,7 +100,7 @@ export default function Home() {
            <div className="ml-[20px]">
            <p className="grid grid-cols justify-items-center w-[140px] bg-blue-500 text-[#fcfafa]
            hover:bg-blue-600 rounded-lg ">
-                      <Link href='http://localhost:3000/blog/post4'>
+                      <Link href='https://dynamic-blog-two-chi.vercel.app/blog/post4'>
             <button type="button" name="button">Read More</button>
             </Link>
             </p>
@@ -124,7 +124,7 @@ export default function Home() {
            <div className="ml-[20px]">
            <p className="grid grid-cols justify-items-center w-[140px] bg-blue-500 text-[#fcfafa]
            hover:bg-blue-600 rounded-lg ">
-                      <Link href='http://localhost:3000/blog/post5'>
+                      <Link href='https://dynamic-blog-two-chi.vercel.app/blog/post5'>
             <button type="button" name="button">Read More</button>
             </Link>
             </p>
@@ -147,7 +147,7 @@ export default function Home() {
            <div className="ml-[20px]">
            <p className="grid grid-cols justify-items-center w-[140px] bg-blue-500 text-[#fcfafa]
            hover:bg-blue-600 rounded-lg ">
-                      <Link href='http://localhost:3000/blog/post6'>
+                      <Link href='https://dynamic-blog-two-chi.vercel.app/blog/post6'>
             <button type="button" name="button">Read More</button>
             </Link>
             </p>
