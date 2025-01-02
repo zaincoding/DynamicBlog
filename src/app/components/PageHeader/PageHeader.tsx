@@ -18,7 +18,7 @@ export default function Header() {
     <div>
         {/* //Header Starting.. */}
         <div className='bg-slate-300 h-[100px] leading-[90px]'>
-        <div className='gird justify-items-center text-[44px] font-bold text-[#5d5d5f]' style={{fontFamily: "myRobot"}}>
+        <div className='gird justify-items-center text-[44px] font-bold text-[#5d5d5f]' style={{fontFamily: "myRoboto"}}>
         {value? <p>Welcome To My Blogs</p>: <p>My Blogs</p>}
     </div>
 </div>

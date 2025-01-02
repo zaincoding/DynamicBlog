@@ -31,7 +31,7 @@ export default function Comments() {
 
         }
         else{
-            setCommentsList(prevCommentlist => [...commentslist, `${name}: ${comments}`]);
+            setCommentsList([...commentslist, `${name}: ${comments}`]);
             setComments('');
             setname('');
             setErrorMessage('');
