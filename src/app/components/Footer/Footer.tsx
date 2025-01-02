@@ -9,11 +9,11 @@ export default function Footer() {
     <div>
 <div  className="h-[80px] bg-slate-300  font-semibold md:text-[22px]  flex items-center ">
 <div className="mx-[10px] md:leading-[80px] hidden">
-© 2025 Zain's Blogs. All rights reserved.
+© 2025 Zain&apos;s Blogs. All rights reserved.
 </div>
 
-<div className="mx-[10px]">
-© 2025 Zain's Blogs. All rights reserved.
+<div className="mx-[10px] md:block">
+© 2025 Zain&apos;s Blogs. All rights reserved.
 </div>
 
 <div className="flex ml-auto space-x-8  md:text-[33px]  text-[22px]">

@@ -37,7 +37,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="{{myRobot.font}}"></div>
+        <div className="{{myRoboto.font}}"></div>
         {children}
       </body>
     </html>
