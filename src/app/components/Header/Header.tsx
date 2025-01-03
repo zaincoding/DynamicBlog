@@ -27,9 +27,9 @@ export default function Header() {
 
 {/* //Hero image start button text */}
     <div className='relative'>
-    <Image src='/images/header/headerImg2.PNG' alt='image' layout='responsive' width={180} height={100}/>
+    <Image src='/images/header/headerImg3.PNG' alt='image' layout='responsive' width={180} height={100}/>
     <div className='flex flex-col'>
-    <button className=' md:-mt-[280px] -mt-20 md:ml-[150px] md:text-[50px] text-[22px]
+    <button className=' md:-mt-[150px] -mt-10 md:ml-[150px] md:text-[50px] text-[20px]
      font-bold text-[#fdfeff]' type="button" name="blog">Zain Khan &apos;s Blog</button>
     </div>
     </div>
