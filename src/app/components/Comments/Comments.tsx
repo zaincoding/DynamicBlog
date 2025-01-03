@@ -14,6 +14,7 @@ export default function Comments() {
     const [comments, setComments] = useState<string>('')
     const [name, setname] = useState<string>('')
     const [errorMessage, setErrorMessage] = useState<string>('')
+    const [commentsCount, setCommentsCount] = useState<number>(0);
 
     const [commentslist, setCommentsList] = useState<string[]>([])
 
@@ -27,14 +28,19 @@ export default function Comments() {
     const handlePostComments = () =>{
         if(!name.trim() || !comments.trim()){
 
-          setErrorMessage("please provide both name and comments.")
+          setErrorMessage("please provide both name and comments.");
 
         }
+
+        else if(commentsCount >= 3) {
+        setErrorMessage('You can only post up to 3 comments.');
+      } 
         else{
             setCommentsList([...commentslist, `${name}: ${comments}`]);
             setComments('');
             setname('');
             setErrorMessage('');
+            setCommentsCount(commentsCount + 1)
         }
 
     }
@@ -61,13 +67,16 @@ export default function Comments() {
                  <button type="button" onClick={handlePostComments} className=" bg-blue-400 hover:bg-blue-500 rounded-md mt-[18px]
                  font-semibold">Post Comments</button>
 
-{errorMessage && (
+{errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+
+
+{/* {errorMessage && (
      <p className="text-red-500 mt-[10px]">{errorMessage}</p>
 )}
 
-{commentslist.length >= 3 &&(
+{errorMessage &&(
    <p className="text-red-500 mt-[10px]">You can only post 3 comments.</p>
-)}
+)} */}
 
     <div>
         <p className="font-bold mt-[20px]">Comments:</p>
